@@ -4,7 +4,7 @@ import { KeyboardEventHandler, useEffect, useRef, FC } from 'react';
 import styles from './Burger.module.scss';
 import { usePathname } from 'next/navigation';
 import { FormClose } from 'grommet-icons';
-import { NavigationLinks } from '@/enums/navigation';
+import { NavigationLinks } from '@/constants/navigation-items';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useBodyOverFlow } from '@/hooks/useBodyOverflow';
